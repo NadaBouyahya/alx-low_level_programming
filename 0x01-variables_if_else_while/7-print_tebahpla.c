@@ -1,16 +1,17 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
-/*
+/**
  * main - Entry function
  * Return: 0
  */
 int main(void)
 {
-	int n;
+	char ch;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+	for (ch = 'z'; ch >= 'a'; ch--)
+		putchar(ch);
+	putchar('\n');
 	return (0);
 }
