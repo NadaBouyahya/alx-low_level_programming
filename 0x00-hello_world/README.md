@@ -1,1 +1,1 @@
-c start
+#!/bin/bash
