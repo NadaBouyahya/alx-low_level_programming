@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main Entry function
+ * main - Entry function
  * Return: 0
  */
 int main(void)
